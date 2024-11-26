@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: black;
+  font-family: 'Krona One', sans-serif;                                                
+  background-color: #1E1E1E;
 }
   
 .topnav {
@@ -12,18 +12,18 @@ body {
 .topnav p{
   float: left;
   color: #000000;
-  text-align: center;
-  padding: 14px 16px;
+  margin-top: 25px;
+  padding: 10px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 36px;
 }
 
 .topnav img{
   float: left;
-  padding: 7px 8px;
+  padding: 14px 14px;
   display: block;
-  max-width: 26px;
-  max-height: 40px;
+  max-width: 58px;
+  max-height: 88.07px;
   width: auto;
   height: auto;
 }
@@ -32,17 +32,27 @@ body {
   float: right;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  margin-top: 20px;
+  padding: 22px 22px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
+
   
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.botnav {
+  background-color: #F5E897;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
-  
-.topnav a.active {
-  background-color: #04AA6D;
-  color: white;
+
+.botnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
 }
