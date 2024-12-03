@@ -115,7 +115,7 @@ body {
   flex: 1;
 }
 
-.randombox article:nth-of-type(2){;
+.randombox article:nth-of-type(2){
   flex: 2;
 }
 
@@ -126,4 +126,9 @@ body {
 .aboutauthor img{
   padding: 14px 14px;
   display: block;
+}
+
+.map{
+  padding: 14px 14px;
+
 }
