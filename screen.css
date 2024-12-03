@@ -42,7 +42,7 @@ body {
   display: flex;
 }
 
-article {
+.topthree article {
   margin: 20px;
   padding: 20px;
   background-color: #F5E897
@@ -86,6 +86,10 @@ article {
 }
 
 .randombox p{
+  color: white
+}
+
+.randombox h2{
   color: white
 }
 
