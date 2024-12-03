@@ -42,9 +42,13 @@ body {
   display: flex;
 }
 
+.topthree h2{
+  text-decoration: underline;
+}
+
 .topthree article {
   margin: 40px;
-  padding: 10px;
+  padding-left: 30px;
   background-color: #F5E897
 }
 
@@ -95,6 +99,8 @@ body {
 
 .randombox{
   display: flex;
+  position: relative;
+  left: 100px;
 }
 
 .randombox article{
@@ -112,9 +118,26 @@ body {
   text-decoration: underline;
 }
 
+.randombox h3{
+  margin-left: 20px;
+}
+
+.randombox button{
+  margin-left: 135px;
+  width: 100px;
+}
+
+.form-control{
+  width: 100px;
+}
+
+.rad{
+  margin-left: 22px;
+}
+
 .randombox article:nth-of-type(1){
   background-color: #F5E897;
-  flex: 1;
+  flex: .35;
 }
 
 .randombox article:nth-of-type(2){
@@ -144,5 +167,5 @@ body {
 
 .map{
   padding: 14px 14px;
-
+  text-align: center;
 }
