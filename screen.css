@@ -124,13 +124,13 @@ body {
 .aboutauthor{
   color: white;
   position: relative;
-  left: 300px;
-  margin: 30px;
+  left: 100px;
+  margin: 20px;
   padding: 40px;
 }
 
 .aboutauthor p{
-  width: 1300px;
+  width: 1500px;
 }
 
 .aboutauthor h2{
