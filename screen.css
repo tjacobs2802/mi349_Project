@@ -43,8 +43,8 @@ body {
 }
 
 .topthree article {
-  margin: 20px;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   background-color: #F5E897
 }
 
@@ -98,8 +98,9 @@ body {
 }
 
 .randombox article{
-  margin: 20px;
-  padding: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+  padding: 10px;
 }
 
 .randombox p{
@@ -107,7 +108,8 @@ body {
 }
 
 .randombox h2{
-  color: white
+  color: white;
+  text-decoration: underline;
 }
 
 .randombox article:nth-of-type(1){
@@ -121,6 +123,10 @@ body {
 
 .aboutauthor{
   color: white;
+}
+
+.aboutauthor h2{
+  text-decoration: underline;
 }
 
 .aboutauthor img{
