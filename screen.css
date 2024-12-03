@@ -85,6 +85,11 @@ body {
   display: flex;
 }
 
+.randombox article{
+  margin: 20px;
+  padding: 20px;
+}
+
 .randombox p{
   color: white
 }
