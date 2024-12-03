@@ -80,3 +80,15 @@ article {
   padding: 14px 14px;
   display: block;
 }
+
+.randombox{
+  display: flex;
+}
+
+.randombox p{
+  color: white
+}
+
+.randombox article:nth-of-type(1){
+  background-color: #F5E897;
+}
