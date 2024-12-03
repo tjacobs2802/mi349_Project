@@ -43,7 +43,7 @@ body {
 }
 
 .topthree article {
-  margin: 10px;
+  margin: 40px;
   padding: 10px;
   background-color: #F5E897
 }
@@ -123,6 +123,14 @@ body {
 
 .aboutauthor{
   color: white;
+  position: relative;
+  left: 300px;
+  margin: 30px;
+  padding: 40px;
+}
+
+.aboutauthor p{
+  width: 1300px;
 }
 
 .aboutauthor h2{
@@ -131,7 +139,7 @@ body {
 
 .aboutauthor img{
   padding: 14px 14px;
-  display: block;
+  float: left;
 }
 
 .map{
