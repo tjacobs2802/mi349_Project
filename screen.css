@@ -38,7 +38,16 @@ body {
   font-size: 20px;
 }
 
-  
+.topthree{
+  display: flex;
+}
+
+article {
+  margin: 20px;
+  padding: 20px;
+  background-color: #F5E897
+}
+
 .botnav {
   background-color: #F5E897;
   overflow: hidden;
