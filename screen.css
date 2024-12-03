@@ -60,7 +60,7 @@ body {
   flex: 1;
 }
 
-.botnav {
+.bottombar {
   background-color: #F5E897;
   overflow: hidden;
   position: fixed;
