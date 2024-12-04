@@ -152,9 +152,7 @@ body {
   padding: 40px;
 }
 
-.aboutauthor p{
-  width: 1000px;
-}
+
 
 .aboutauthor h2{
   text-decoration: underline;
@@ -163,9 +161,16 @@ body {
 .aboutauthor img{
   padding: 14px 14px;
   float: left;
+  border-radius: 30px;
 }
 
 .map{
   padding: 14px 14px;
   text-align: center;
+}
+.contactbox{
+  background-color: #F5E897;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
 }
