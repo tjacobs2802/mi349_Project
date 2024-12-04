@@ -110,7 +110,8 @@ body {
 }
 
 .randombox p{
-  color: white
+  color: white;
+  width: auto;
 }
 
 .randombox h2{
@@ -141,14 +142,16 @@ body {
 }
 
 .randombox article:nth-of-type(2){
-  flex: 2;
+  flex: 1.65;
 }
 
 .aboutauthor{
   color: white;
-  margin: 20px;
+  margin: 40px;
+  margin-left: 250px;
   padding: 40px;
   width: auto;
+  max-width: 1200px;
 }
 
 
@@ -166,6 +169,7 @@ body {
 .map{
   padding: 14px 14px;
   text-align: center;
+  width: auto;
 }
 
 
