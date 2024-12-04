@@ -148,10 +148,8 @@ body {
 .aboutauthor{
   color: white;
   margin: 40px;
-  margin-left: 300px;
   padding: 40px;
   width: auto;
-  max-width: 1250px;
 }
 
 
@@ -186,4 +184,13 @@ body {
 
 .title{
   color: white;
+}
+
+#list{
+  position: relative;
+  left: 25px;
+}
+
+.aboutauthor h3{
+  text-decoration: underline;
 }
