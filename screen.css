@@ -152,7 +152,7 @@ body {
 }
 
 /* Contact question box on contact page */
-#contactbox{
+.contactbox{
   background-color: #F5E897;
   margin: auto;
   position: relative;
