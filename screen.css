@@ -102,7 +102,7 @@ body {
 }
 
 .randombox button{
-  margin-left: 135px;
+  margin-left: 110px;
   width: 100px;
 }
 
@@ -121,6 +121,13 @@ body {
 
 .randombox article:nth-of-type(2){
   flex: 1.7;
+}
+
+.forms{
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 
