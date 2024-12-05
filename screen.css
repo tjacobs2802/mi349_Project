@@ -153,7 +153,6 @@ body {
 }
 
 
-
 .aboutauthor h2{
   text-decoration: underline;
 }
@@ -173,18 +172,15 @@ body {
 
 .contactbox{
   background-color: #F5E897;
-  margin: 10px;
+  margin: auto;
+  position: relative;
+  top: 70px;
+
   padding: 50px;
-  padding-left: 100px;
-  padding-right: 100px;
-  text-align: right;
+  text-align: left;
   width: 400px;
-  margin-left: auto;
 }
 
-.title{
-  color: white;
-}
 
 #list{
   position: relative;
