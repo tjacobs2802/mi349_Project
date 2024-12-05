@@ -40,6 +40,8 @@ body {
 
 .topthree{
   display: flex;
+  margin: auto;
+  max-width: auto;
 }
 
 .topthree h2{
@@ -98,8 +100,6 @@ body {
 
 .randombox{
   display: flex;
-  position: relative;
-  left: 100px;
   width: auto;
 }
 
