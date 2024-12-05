@@ -5,12 +5,12 @@ body {
 }
 
 /* Top navigation bar */
-#topnav {
+.topnav {
   overflow: hidden;
   background-color: #F5E897;
 }
 
-#topnav p{
+.topnav p{
   float: left;
   color: #000000;
   margin-top: 27px;
@@ -19,7 +19,7 @@ body {
   font-size: 36px;
 }
 
-#topnav img{
+.topnav img{
   float: left;
   padding: 14px 14px;
   display: block;
@@ -29,7 +29,7 @@ body {
   height: auto;
 }
   
-#topnav a {
+.topnav a {
   float: right;
   color: #000000;
   text-align: center;
@@ -40,68 +40,68 @@ body {
 }
 
 /* Map on index page */
-#map{
+.map{
   padding: 14px 14px;
   text-align: center;
   width: auto;
 }
 
 /* Top three boxes on index */
-#topthree{
+.topthree{
   display: flex;
   margin: auto;
   max-width: auto;
 }
 
-#topthree h2{
+.topthree h2{
   text-decoration: underline;
 }
 
-#topthree article {
+.topthree article {
   margin: 40px;
   padding-left: 30px;
   background-color: #F5E897
 }
 
-#topthree article:nth-of-type(1){
+.topthree article:nth-of-type(1){
   flex: 1;
 }
 
-#topthree article:nth-of-type(2){
+.topthree article:nth-of-type(2){
   flex: 1;
 }
 
-#topthree article:nth-of-type(3){
+.topthree article:nth-of-type(3){
   flex: 1;
 }
 
 /* Random box feature on index page */
-#randombox{
+.randombox{
   display: flex;
   margin-left: 200px;
 }
 
-#randombox article{
+.randombox article{
   margin-left: 100px;
   margin-top: 20px;
   padding: 10px;
 }
 
-#randombox p{
+.randombox p{
   color: white;
   width: auto;
 }
 
-#randombox h2{
+.randombox h2{
   color: white;
   text-decoration: underline;
 }
 
-#randombox h3{
+.randombox h3{
   margin-left: 20px;
 }
 
-#randombox button{
+.randombox button{
   margin-left: 135px;
   width: 100px;
 }
@@ -114,14 +114,15 @@ body {
   margin-left: 22px;
 }
 
-#randombox article:nth-of-type(1){
+.randombox article:nth-of-type(1){
   background-color: #F5E897;
   flex: .3;
 }
 
-#randombox article:nth-of-type(2){
+.randombox article:nth-of-type(2){
   flex: 1.7;
 }
+
 
 /* Content on about page */
 #aboutauthor{
@@ -162,7 +163,7 @@ body {
 }
 
 /* Bottom navigation bar */
-#bottombar {
+.bottombar {
   background-color: #F5E897;
   overflow: hidden;
   position: fixed;

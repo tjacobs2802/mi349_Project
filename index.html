@@ -10,17 +10,17 @@
   <title>Burger Locator</title>
 </head>
 <body>
-  <section id="topnav">
+  <div class="topnav">
     <img src="images/burgerlogo.png" alt="burgerlogo">
     <p>The Burger Locator</p>
     <a href="contact.html">Contact</a>
     <a href="about.html">About</a>
     <a class="active" href="index.html">Randomize</a>
-  </section>
-  <section id="map">
+  </div>
+  <div class="map">
     <img src="images/map.png" alt="map">
-  </section>
-  <section id="topthree">
+  </div>
+  <div class="topthree">
     <article>
       <h2>Restaurant 1</h2>
       <h3>Rating: 
@@ -42,38 +42,34 @@
       </h3>
       <h3>Busiest Time: 12:00PM - 1:00PM</h3>
     </article>
-  </section>
-  <section id="randombox">
+  </div>
+  <div class="randombox">
     <article>
-      <h3>      
-        <form>
-          <label>Zip Code: 
-            <input type="text" class="form-control">
-          </label>
-        </form>
-      </h3>
-      <h3>      
-        <form class="rad">
-          <label>Radius: 
-            <select name="radius" class="form-control">
-              <option>5 miles</option>
-              <option>10 miles</option>
-              <option>20 miles</option>
-              <option>30 miles</option>
-              <option>50 miles</option>
-            </select>
-          </label>
-        </form>
-      </h3>
-      <button>Randomize!</button>
+      <form>
+        <label>Zip Code: 
+          <input type="text" class="form-control">
+        </label>
+      </form> 
+      <form class="rad">
+        <label>Radius: 
+          <select name="radius" class="form-control">
+            <option>5 miles</option>
+            <option>10 miles</option>
+            <option>20 miles</option>
+            <option>30 miles</option>
+            <option>50 miles</option>
+          </select>
+        </label>
+      </form>
+      <button>Randomize!</button> 
     </article>
     <article>
       <h2>Can't Decide? Randomize!</h2>
       <p>Want a burger, but don’t know where to go? No problem! 
-        Just enter a zip code and a mile radius and our randomizer will pick for you.</p>
+        Just enter a zip code and a mile radius, and our randomizer will pick for you.</p>
     </article>
-  </section>
-  <section id="bottombar">
+  </div>
+  <div class="bottombar">
     <div class="botnav">
       <a class="active" href="index.html">Randomize</a>
       <a href="about.html">About</a>
@@ -91,6 +87,6 @@
       </a>
       <p>Social Media: </p>
     </div>
-  </section>
+  </div>
 </body>
 </html>
