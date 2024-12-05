@@ -102,7 +102,7 @@ body {
 }
 
 .randombox button{
-  margin-left: 120px;
+  margin-left: 135px;
   width: 100px;
 }
 
@@ -122,8 +122,6 @@ body {
 .randombox article:nth-of-type(2){
   flex: 1.7;
 }
-
-
 
 /* Content on about page */
 #aboutauthor{
